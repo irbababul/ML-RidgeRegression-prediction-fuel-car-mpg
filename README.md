@@ -1,45 +1,45 @@
-# Project Report — Prediksi Konsumsi BBM Mobil
-**kontributor: Muhammad Irbabul Salas**
+# 📊Project Report — Prediksi Konsumsi BBM Mobil
+**👤kontributor: Muhammad Irbabul Salas**
 ---
 
-**Dataset:** Auto MPG (versi Bahasa Indonesia) — `mpg_indo.csv`  
-**Tipe Problem:** Supervised Learning — Regresi  
-**Model Final:** Ridge Regression  
+**📂Dataset:** Auto MPG (versi Bahasa Indonesia) — `mpg_indo.csv`  
+**🎯Tipe Problem:** Supervised Learning — Regresi  
+**🏆Model Final:** Ridge Regression  
 
 ---
 
-## 1. Gambaran Proyek
+## 1. 📌Gambaran Proyek
 
 Proyek ini bertujuan membangun model machine learning untuk memprediksi konsumsi bahan bakar minyak (BBM) kendaraan dalam satuan **miles per gallon (mpg)**. Dataset berisi spesifikasi teknis 398 kendaraan dari tiga wilayah produksi: Amerika, Eropa, dan Asia, diproduksi antara tahun 1970–1982.
 
-### Struktur Proyek
+### 🏗️Struktur Proyek
 
 ```
 ML_autompg/
-├── data/
-│   ├── raw/           ← mpg_indo.csv (data asli, tidak diubah)
-│   ├── interim/       ← data_encoded.csv (setelah encoding, sebelum scaling)
-│   └── processed/     ← data_preprocessed.csv (siap modeling)
-├── models/
-│   └── ridge_final.pkl
-├── notebooks/
-│   ├── eda.ipynb
-│   ├── preprocessing.ipynb
-│   └── feature_engineering.ipynb
-├── reports/
-│   └── figures/       ← semua visualisasi tersimpan di sini
-├── src/
-│   ├── data/          ← load_data.py
-│   ├── features/      ← build_features.py (transformers + preprocessor)
-│   ├── models/        ← train.py (pipeline builder + evaluasi)
-│   └── visualization/ ← plots.py
-└── docs/
-    └── project_report.md (dokumen ini)
+├── 📂data/
+│   ├── 📄raw/           ← mpg_indo.csv (data asli, tidak diubah)
+│   ├── 📄interim/       ← data_encoded.csv (setelah encoding, sebelum scaling)
+│   └── 📄processed/     ← data_preprocessed.csv (siap modeling)
+├── 📂models/
+│   └── 📦ridge_final.pkl
+├── 📂notebooks/
+│   ├── 📓eda.ipynb
+│   ├── 📓preprocessing.ipynb
+│   └── 📓feature_engineering.ipynb
+├── 📂reports/
+│   └── 🖼️figures/       ← semua visualisasi tersimpan di sini
+├── 📂src/
+│   ├── ⚙️data/          ← load_data.py
+│   ├── ⚙️features/      ← build_features.py (transformers + preprocessor)
+│   ├── ⚙️models/        ← train.py (pipeline builder + evaluasi)
+│   └── ⚙️visualization/ ← plots.py
+└── 📂docs/
+    └── 📄project_report.md (dokumen ini)
 ```
 
 ---
 
-## 2. Dataset
+## 2. 📑Dataset
 
 | Kolom | Tipe | Keterangan |
 |---|---|---|
@@ -52,11 +52,11 @@ ML_autompg/
 | `asal_pabrikan` | Kategorikal Nominal | Amerika / Eropa / Asia |
 | `konsumsi_bbm` | **Target** | Konsumsi BBM (mpg) |
 
-**Missing value:** 6 nilai pada `kekuatan_mesin` (~1.5%)
+**⚠️Missing value:** 6 nilai pada `kekuatan_mesin` (~1.5%)
 
 ---
 
-## 3. Exploratory Data Analysis (EDA)
+## 3. 🔍Exploratory Data Analysis (EDA)
 
 ### Temuan Utama
 
@@ -87,7 +87,7 @@ ML_autompg/
 
 ---
 
-## 4. Preprocessing Pipeline
+## 4. 🛠️Preprocessing Pipeline
 
 ### Strategi
 
@@ -121,7 +121,7 @@ Seluruh preprocessing diimplementasikan sebagai `sklearn.Pipeline` dengan `Trans
 
 ---
 
-## 5. Modeling — Phase 1–3
+## 5. 🤖Modeling — Phase 1–3
 
 ### Model yang Diuji
 
@@ -152,7 +152,7 @@ Seluruh preprocessing diimplementasikan sebagai `sklearn.Pipeline` dengan `Trans
 
 ---
 
-## 6. Feature Engineering — Phase 4
+## 6. 🔬Feature Engineering — Phase 4
 
 ### Eksperimen
 
@@ -174,7 +174,7 @@ Seluruh preprocessing diimplementasikan sebagai `sklearn.Pipeline` dengan `Trans
 
 ---
 
-## 7. Model Final
+## 7. 🥇Model Final
 
 ### Spesifikasi
 
@@ -211,7 +211,7 @@ y_pred = model.predict(X_new)  # output dalam satuan mpg
 
 ---
 
-## 8. Alur Eksperimen Keseluruhan
+## 8. 🔄Alur Eksperimen Keseluruhan
 
 ```
 EDA (eda.ipynb)
@@ -229,7 +229,7 @@ Feature Engineering (feature_engineering.ipynb)
 
 ---
 
-## 9. Struktur src/
+## 9. 🧩Struktur src/
 
 | File | Isi |
 |---|---|
@@ -240,7 +240,7 @@ Feature Engineering (feature_engineering.ipynb)
 
 ---
 
-## 10. Potensi Improvement Selanjutnya
+## 10. 🚀Potensi Improvement Selanjutnya
 
 | Ide | Ekspektasi |
 |---|---|
