@@ -6,7 +6,7 @@
 **🎯Tipe Problem:** Supervised Learning — Regresi  
 **🏆Model Final:** Ridge Regression
 
-**🌐live demo:** [https://fuel-mpg-predictor.streamlit.app/](https://fuel-mpg-predictor.streamlit.app/)
+### **🌐live demo:** [https://fuel-mpg-predictor.streamlit.app/](https://fuel-mpg-predictor.streamlit.app/)
 ---
 
 ## 1. 📌Gambaran Proyek
