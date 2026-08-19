@@ -4,8 +4,9 @@
 
 **📂Dataset:** Auto MPG (versi Bahasa Indonesia) — `mpg_indo.csv`  
 **🎯Tipe Problem:** Supervised Learning — Regresi  
-**🏆Model Final:** Ridge Regression 
-** live demo:** [https://fuel-mpg-predictor.streamlit.app/](https://fuel-mpg-predictor.streamlit.app/)
+**🏆Model Final:** Ridge Regression
+
+**live demo:** [https://fuel-mpg-predictor.streamlit.app/](https://fuel-mpg-predictor.streamlit.app/)
 
 ---
 
