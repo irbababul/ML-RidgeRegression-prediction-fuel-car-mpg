@@ -1,12 +1,12 @@
 # 📊Project Report — Prediksi Konsumsi BBM Mobil
 **👤kontributor: Muhammad Irbabul Salas**
-**🌐live demo:** [https://fuel-mpg-predictor.streamlit.app/](https://fuel-mpg-predictor.streamlit.app/)
 ---
 
 **📂Dataset:** Auto MPG (versi Bahasa Indonesia) — `mpg_indo.csv`  
 **🎯Tipe Problem:** Supervised Learning — Regresi  
 **🏆Model Final:** Ridge Regression
 
+**🌐live demo:** [https://fuel-mpg-predictor.streamlit.app/](https://fuel-mpg-predictor.streamlit.app/)
 ---
 
 ## 1. 📌Gambaran Proyek
