@@ -28,14 +28,14 @@ ML_autompg/
 │   ├── 📓preprocessing.ipynb
 │   └── 📓feature_engineering.ipynb
 ├── 📂reports/
-│   └── 🖼️figures/       ← semua visualisasi tersimpan di sini
+│   └── 🖼️figures/       ← visualisasi
 ├── 📂src/
 │   ├── ⚙️data/          ← load_data.py
 │   ├── ⚙️features/      ← build_features.py (transformers + preprocessor)
 │   ├── ⚙️models/        ← train.py (pipeline builder + evaluasi)
 │   └── ⚙️visualization/ ← plots.py
 └── 📂docs/
-    └── 📄project_report.md (dokumen ini)
+    └── 📄project_report.md (dokumentasi)
 ```
 
 ---
